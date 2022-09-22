@@ -62,7 +62,7 @@ section.clearfix>div>img{
 section.clearfix>div>div{
     display: inline-block;
     color: white;
-    padding: .7rem;
+    padding: 0.8rem;
 }
 
 section.clearfix>div>*{
