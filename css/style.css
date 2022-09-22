@@ -1,0 +1,26 @@
+/* --- Reset --- */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+/* ------------------------------------------------------------------------------ */
+
+/* Dummy Classes  */
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Tag Selectors  */
+
+/* Class Selectors */
+
+/* Id Selectors */
+
+/* Specific Selectors */
