@@ -18,9 +18,36 @@ html{
 }
 
 /* Tag Selectors  */
+body{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+section{
+    width: 100%;
+}
 
 /* Class Selectors */
 
 /* Id Selectors */
 
 /* Specific Selectors */
+
+header h1{
+    color: #e53170;
+    padding: 3rem;
+}
+
+header h1,
+main section>p{
+    text-align: center;
+}
+
+main>div{
+    width: 920px;
+    margin: auto;
+}
+
+
+
+
+
