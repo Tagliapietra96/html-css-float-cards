@@ -47,7 +47,41 @@ main>div{
     margin: auto;
 }
 
+section.clearfix>div{
+    margin: 2.5rem 1.5rem 0 0;
+    width: calc((100% / 3) - (2.5rem * 2 / 3));
+    background-color: #0f0e17;
+    float: left;
+}
 
+section.clearfix>div>img{
+    width: 30%;
+}
 
+section.clearfix>div>div{
+    display: inline-block;
+    color: white;
+    padding: .7rem;
+}
+
+section.clearfix>div>*{
+    float: left;
+}
+
+section.clearfix h3{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+section.clearfix p{
+    font-size: small;
+    margin-bottom: 0.2rem;
+}
+
+section.clearfix a{
+    font-size: small;
+    text-decoration: none;
+    color: #58bde1;
+}
 
 
